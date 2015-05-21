@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5697F91B0DC83300055B48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5697F81B0DC83300055B48 /* Foundation.framework */; };
+		BB5697FB1B0DC83300055B48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5697FA1B0DC83300055B48 /* CoreGraphics.framework */; };
+		BB5697FD1B0DC83300055B48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5697FC1B0DC83300055B48 /* UIKit.framework */; };
+		BB5698031B0DC83300055B48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB5698011B0DC83300055B48 /* InfoPlist.strings */; };
+		BB5698051B0DC83300055B48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5698041B0DC83300055B48 /* main.m */; };
+		BB5698091B0DC83300055B48 /* VEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5698081B0DC83300055B48 /* VEAppDelegate.m */; };
+		BB56980C1B0DC83300055B48 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB56980A1B0DC83300055B48 /* Search.storyboard */; };
+		BB5698111B0DC83300055B48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5698101B0DC83300055B48 /* Images.xcassets */; };
+		BB5698181B0DC83300055B48 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5698171B0DC83300055B48 /* XCTest.framework */; };
+		BB5698191B0DC83300055B48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5697F81B0DC83300055B48 /* Foundation.framework */; };
+		BB56981A1B0DC83300055B48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5697FC1B0DC83300055B48 /* UIKit.framework */; };
+		BB5698221B0DC83300055B48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB5698201B0DC83300055B48 /* InfoPlist.strings */; };
+		BB5698241B0DC83300055B48 /* VESearchModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5698231B0DC83300055B48 /* VESearchModuleTests.m */; };
+		BB5698341B0DD92C00055B48 /* DKAlertSearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB56982F1B0DD92C00055B48 /* DKAlertSearchResultsTableViewController.m */; };
+		BB5698351B0DD92C00055B48 /* DKAlertSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5698311B0DD92C00055B48 /* DKAlertSearchViewController.m */; };
+		BB5698361B0DD92C00055B48 /* DKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5698331B0DD92C00055B48 /* DKDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB56981B1B0DC83300055B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5697ED1B0DC83300055B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5697F41B0DC83300055B48;
+			remoteInfo = VESearchModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB5697F51B0DC83300055B48 /* VESearchModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VESearchModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5697F81B0DC83300055B48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB5697FA1B0DC83300055B48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB5697FC1B0DC83300055B48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB5698001B0DC83300055B48 /* VESearchModule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VESearchModule-Info.plist"; sourceTree = "<group>"; };
+		BB5698021B0DC83300055B48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB5698041B0DC83300055B48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB5698061B0DC83300055B48 /* VESearchModule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VESearchModule-Prefix.pch"; sourceTree = "<group>"; };
+		BB5698071B0DC83300055B48 /* VEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VEAppDelegate.h; sourceTree = "<group>"; };
+		BB5698081B0DC83300055B48 /* VEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VEAppDelegate.m; sourceTree = "<group>"; };
+		BB56980B1B0DC83300055B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Search.storyboard; sourceTree = "<group>"; };
+		BB5698101B0DC83300055B48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB5698161B0DC83300055B48 /* VESearchModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VESearchModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5698171B0DC83300055B48 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB56981F1B0DC83300055B48 /* VESearchModuleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VESearchModuleTests-Info.plist"; sourceTree = "<group>"; };
+		BB5698211B0DC83300055B48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB5698231B0DC83300055B48 /* VESearchModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESearchModuleTests.m; sourceTree = "<group>"; };
+		BB56982E1B0DD92C00055B48 /* DKAlertSearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKAlertSearchResultsTableViewController.h; sourceTree = "<group>"; };
+		BB56982F1B0DD92C00055B48 /* DKAlertSearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKAlertSearchResultsTableViewController.m; sourceTree = "<group>"; };
+		BB5698301B0DD92C00055B48 /* DKAlertSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKAlertSearchViewController.h; sourceTree = "<group>"; };
+		BB5698311B0DD92C00055B48 /* DKAlertSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKAlertSearchViewController.m; sourceTree = "<group>"; };
+		BB5698321B0DD92C00055B48 /* DKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDetailViewController.h; sourceTree = "<group>"; };
+		BB5698331B0DD92C00055B48 /* DKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB5697F21B0DC83300055B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5697FB1B0DC83300055B48 /* CoreGraphics.framework in Frameworks */,
+				BB5697FD1B0DC83300055B48 /* UIKit.framework in Frameworks */,
+				BB5697F91B0DC83300055B48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5698131B0DC83300055B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5698181B0DC83300055B48 /* XCTest.framework in Frameworks */,
+				BB56981A1B0DC83300055B48 /* UIKit.framework in Frameworks */,
+				BB5698191B0DC83300055B48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5697EC1B0DC83300055B48 = {
+			isa = PBXGroup;
+			children = (
+				BB5697FE1B0DC83300055B48 /* VESearchModule */,
+				BB56981D1B0DC83300055B48 /* VESearchModuleTests */,
+				BB5697F71B0DC83300055B48 /* Frameworks */,
+				BB5697F61B0DC83300055B48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5697F61B0DC83300055B48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5697F51B0DC83300055B48 /* VESearchModule.app */,
+				BB5698161B0DC83300055B48 /* VESearchModuleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5697F71B0DC83300055B48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB5697F81B0DC83300055B48 /* Foundation.framework */,
+				BB5697FA1B0DC83300055B48 /* CoreGraphics.framework */,
+				BB5697FC1B0DC83300055B48 /* UIKit.framework */,
+				BB5698171B0DC83300055B48 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB5697FE1B0DC83300055B48 /* VESearchModule */ = {
+			isa = PBXGroup;
+			children = (
+				BB56982D1B0DD92C00055B48 /* src */,
+				BB5698071B0DC83300055B48 /* VEAppDelegate.h */,
+				BB5698081B0DC83300055B48 /* VEAppDelegate.m */,
+				BB56980A1B0DC83300055B48 /* Search.storyboard */,
+				BB5698101B0DC83300055B48 /* Images.xcassets */,
+				BB5697FF1B0DC83300055B48 /* Supporting Files */,
+			);
+			path = VESearchModule;
+			sourceTree = "<group>";
+		};
+		BB5697FF1B0DC83300055B48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB5698001B0DC83300055B48 /* VESearchModule-Info.plist */,
+				BB5698011B0DC83300055B48 /* InfoPlist.strings */,
+				BB5698041B0DC83300055B48 /* main.m */,
+				BB5698061B0DC83300055B48 /* VESearchModule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB56981D1B0DC83300055B48 /* VESearchModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5698231B0DC83300055B48 /* VESearchModuleTests.m */,
+				BB56981E1B0DC83300055B48 /* Supporting Files */,
+			);
+			path = VESearchModuleTests;
+			sourceTree = "<group>";
+		};
+		BB56981E1B0DC83300055B48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB56981F1B0DC83300055B48 /* VESearchModuleTests-Info.plist */,
+				BB5698201B0DC83300055B48 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB56982D1B0DD92C00055B48 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BB56982E1B0DD92C00055B48 /* DKAlertSearchResultsTableViewController.h */,
+				BB56982F1B0DD92C00055B48 /* DKAlertSearchResultsTableViewController.m */,
+				BB5698301B0DD92C00055B48 /* DKAlertSearchViewController.h */,
+				BB5698311B0DD92C00055B48 /* DKAlertSearchViewController.m */,
+				BB5698321B0DD92C00055B48 /* DKDetailViewController.h */,
+				BB5698331B0DD92C00055B48 /* DKDetailViewController.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5697F41B0DC83300055B48 /* VESearchModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5698271B0DC83300055B48 /* Build configuration list for PBXNativeTarget "VESearchModule" */;
+			buildPhases = (
+				BB5697F11B0DC83300055B48 /* Sources */,
+				BB5697F21B0DC83300055B48 /* Frameworks */,
+				BB5697F31B0DC83300055B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VESearchModule;
+			productName = VESearchModule;
+			productReference = BB5697F51B0DC83300055B48 /* VESearchModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB5698151B0DC83300055B48 /* VESearchModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB56982A1B0DC83300055B48 /* Build configuration list for PBXNativeTarget "VESearchModuleTests" */;
+			buildPhases = (
+				BB5698121B0DC83300055B48 /* Sources */,
+				BB5698131B0DC83300055B48 /* Frameworks */,
+				BB5698141B0DC83300055B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB56981C1B0DC83300055B48 /* PBXTargetDependency */,
+			);
+			name = VESearchModuleTests;
+			productName = VESearchModuleTests;
+			productReference = BB5698161B0DC83300055B48 /* VESearchModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5697ED1B0DC83300055B48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cyyun;
+				TargetAttributes = {
+					BB5698151B0DC83300055B48 = {
+						TestTargetID = BB5697F41B0DC83300055B48;
+					};
+				};
+			};
+			buildConfigurationList = BB5697F01B0DC83300055B48 /* Build configuration list for PBXProject "VESearchModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5697EC1B0DC83300055B48;
+			productRefGroup = BB5697F61B0DC83300055B48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5697F41B0DC83300055B48 /* VESearchModule */,
+				BB5698151B0DC83300055B48 /* VESearchModuleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5697F31B0DC83300055B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5698111B0DC83300055B48 /* Images.xcassets in Resources */,
+				BB5698031B0DC83300055B48 /* InfoPlist.strings in Resources */,
+				BB56980C1B0DC83300055B48 /* Search.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5698141B0DC83300055B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5698221B0DC83300055B48 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB5697F11B0DC83300055B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5698351B0DD92C00055B48 /* DKAlertSearchViewController.m in Sources */,
+				BB5698341B0DD92C00055B48 /* DKAlertSearchResultsTableViewController.m in Sources */,
+				BB5698361B0DD92C00055B48 /* DKDetailViewController.m in Sources */,
+				BB5698051B0DC83300055B48 /* main.m in Sources */,
+				BB5698091B0DC83300055B48 /* VEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5698121B0DC83300055B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5698241B0DC83300055B48 /* VESearchModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB56981C1B0DC83300055B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5697F41B0DC83300055B48 /* VESearchModule */;
+			targetProxy = BB56981B1B0DC83300055B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB5698011B0DC83300055B48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5698021B0DC83300055B48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB56980A1B0DC83300055B48 /* Search.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB56980B1B0DC83300055B48 /* Base */,
+			);
+			name = Search.storyboard;
+			sourceTree = "<group>";
+		};
+		BB5698201B0DC83300055B48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5698211B0DC83300055B48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB5698251B0DC83300055B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB5698261B0DC83300055B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5698281B0DC83300055B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VESearchModule/VESearchModule-Prefix.pch";
+				INFOPLIST_FILE = "VESearchModule/VESearchModule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB5698291B0DC83300055B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VESearchModule/VESearchModule-Prefix.pch";
+				INFOPLIST_FILE = "VESearchModule/VESearchModule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB56982B1B0DC83300055B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VESearchModule.app/VESearchModule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VESearchModule/VESearchModule-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VESearchModuleTests/VESearchModuleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB56982C1B0DC83300055B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VESearchModule.app/VESearchModule";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VESearchModule/VESearchModule-Prefix.pch";
+				INFOPLIST_FILE = "VESearchModuleTests/VESearchModuleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5697F01B0DC83300055B48 /* Build configuration list for PBXProject "VESearchModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5698251B0DC83300055B48 /* Debug */,
+				BB5698261B0DC83300055B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5698271B0DC83300055B48 /* Build configuration list for PBXNativeTarget "VESearchModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5698281B0DC83300055B48 /* Debug */,
+				BB5698291B0DC83300055B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB56982A1B0DC83300055B48 /* Build configuration list for PBXNativeTarget "VESearchModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB56982B1B0DC83300055B48 /* Debug */,
+				BB56982C1B0DC83300055B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB5697ED1B0DC83300055B48 /* Project object */;
+}
